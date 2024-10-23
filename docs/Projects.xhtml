@@ -1,24 +1,10 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
-    <!-- Try opening this file on your local computer in a web browser (Firefox, Chrome, etc). 
-     * On Windows, go to the browser and type control + o and browse to find this file to open it.
-     * On Mac, go to the browser and type command + o and browse to find this file to open it. 
-     Look for the text in the <title> element in the tab above the browser search bar. Do you see it? 
-    -->
     <head>
-        <!-- What's in the <head> element is a "meta" area not for display. 
-            It holds important information about the website's contents.
-            The text inside the <title> element does show in the top tab of a web browser. 
-             The <head> is where we will include info about styling the site, too. -->
         <title>HTML_01</title>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <!-- Here is a place where we can add a little styling code called CSS to this page. 
-            I used it to apply a background color to the body element.
-        -->
-        
         <link rel="stylesheet" type="text/css" href="style.css" />
-        
     </head>
     <body>
         <ul>
@@ -28,15 +14,28 @@
             <li><a href="Projects.xhtml">Projects</a></li>
         </ul>
       
-        <h1>Projects Page</h1>
-        <h2>Scaniverse Group Project - Digit100</h2>
-        <h6>Gabriella Vozar | Dannika Love | Ana Lucia Masso | Rashe Mishra</h6>
-       <section class="flex"> 
-          <figure> <iframe width="640" height="360" src="https://www.thinglink.com/view/scene/1902439637226357604" style="border: none;"></iframe>
-          </figure>
-           <div><h3>Project Description</h3> <p>As a group we decided to do a scaniverse scan of the Penn State Behrend lion statue outside of Junker. In the scan we captured the lion, the lion plaque, the foliage around the lion and the junker center sign. We collectively worked together, not one person did anything themselves, we all traded off on turns such as the scanning the lion, the annotations, the pictures and the researching for the annotations. </p>
-         </div>
-          
+        <section class="projects-section">
+            <div class="projects-header">
+                <h1>My Projects</h1>
+                <p>Explore some of the creative and development work I have been involved in.</p>
+            </div>
+            
+            <div class="projects-grid">
+                <div class="project-card">
+                    <figure> 
+                        <iframe width="1000" height="360" src="https://www.thinglink.com/view/scene/1902439637226357604" style="border: none;"></iframe>
+                    </figure>
+                        <div class="project-info">
+                            <h2>Scanniverse</h2>
+                            <p>As a group we decided to do a scaniverse scan of the Penn State Behrend lion statue outside of Junker. In the scan we captured the lion, the lion plaque, the foliage around the lion and the junker center sign. We collectively worked together, not one person did anything themselves, we all traded off on turns such as the scanning the lion, the annotations, the pictures and the researching for the annotations.</p>
+                            <h6>Gabriella Vozar | Dannika Love | Ana Lucia Masso | Rashe Mishra</h6>
+                        </div>
+                </div>
+            </div>
         </section>
+      
+           <footer class="footer">
+            <p>2024 Gabriella Vozar. All Rights Reserved.</p>
+            </footer>
     </body>
 </html>
