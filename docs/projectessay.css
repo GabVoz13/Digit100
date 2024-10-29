@@ -42,14 +42,14 @@ li a:hover {
 /* Headers and Text Styling within Content */
 .content h1 {
     font-size: 2em;
-    color: #8A6240;
+    color: #2c3e50;
     text-align: center;
     margin-bottom: 15px;
 }
 
 .content h2 {
     font-size: 1.5em;
-    color: #8A6240;
+    color: #2c3e50;
     border-bottom: 2px solid #CABA9C;
     padding-bottom: 5px;
     margin-top: 20px;
@@ -71,13 +71,13 @@ li a:hover {
 
 /* Links */
 .content a {
-    color: #7B4B36;
+    color: #F5F2E7;
     text-decoration: none;
     font-weight: bold;
 }
 
 .content a:hover {
-    color: #8A6240;
+    color: #2c3e50;
     text-decoration: underline;
 }
 
