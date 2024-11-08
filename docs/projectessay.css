@@ -1,3 +1,8 @@
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
 /* Nav bar Section */
 body {
     background-color: #82896E;
@@ -110,5 +115,6 @@ li a:hover {
     .content h3 {
         font-size: 1.1em;
     }
-}
+
+
 
