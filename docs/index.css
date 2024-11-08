@@ -60,22 +60,6 @@ body {
     text-shadow: 1px 1px 6px rgba(0, 0, 0, 0.6);
 }
 
-.cta-button {
-    display: inline-block;
-    padding: 15px 30px;
-    background-color: #CABA9C;
-    color: #333;
-    text-decoration: none;
-    font-size: 18px;
-    border-radius: 30px;
-    transition: all 0.4s ease;
-}
-
-.cta-button:hover {
-    background-color: #8A6240;
-    color: #fff;
-    transform: scale(1.05);
-}
 
 /* Feature Section */
 .features {

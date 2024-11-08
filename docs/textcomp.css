@@ -19,11 +19,10 @@ body {
     max-width: 900px;
     margin: 30px auto 30px;
     padding: 20px;
-    background-color: #414833;
+    background-color: #543522;
     border-radius: 8px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
-
 
 /* Nav Bar Section */
 nav ul {
@@ -48,7 +47,7 @@ li a {
 
 /* Header and Era Sections */
 h1, h2, h3 {
-    color: #2c3e50;
+    color: #DDCBB7;
 }
 
 h1 {
@@ -59,14 +58,14 @@ h1 {
 h2 {
     font-size: 1.5em;
     margin: 20px 0 10px;
-    color: #2c3e50;
-    border-bottom: 2px solid #E0E0E0;
+    color: #DDCBB7;
+    border-bottom: 2px solid #DDCBB7;
     padding-bottom: 5px;
 }
 
 h3 {
     font-size: 1.3em;
-    color: #2c3e50;
+    color: #DDCBB7;
     margin-top: 15px;
 }
 
@@ -74,8 +73,8 @@ h3 {
 .explanation {
     margin-bottom: 20px;
     font-size: 1.1em;
-    color: #333;
-    text-align: justify;
+    color: #DDCBB7;
+    text-align: center;
 }
 
 /* Genre Section */
@@ -83,34 +82,54 @@ h3 {
     margin-top: 25px;
     margin-bottom: 25px;
     padding: 15px;
-    border-left: 4px solid #2c3e50;
-    background-color: #FAFAFA;
+    border-left: 4px solid #DDCBB7;
+    background-color: #6A422F;
     border-radius: 5px;
+}
+
+.genre-section p {
+    color: #DDCBB7; /* Change this to your desired color */
+    font-size: 1em; /* Adjust the size if needed */
 }
 
 /* Screenshot Container */
 .screenshot-container {
-    display: flex;
-    flex-wrap: wrap;
+    padding: 10px;
+    border: 2px solid #CABA9C; 
+    border-radius: 8px;
+    background-color: #414833;
     gap: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
+    display: flex; /* Use flexbox for side-by-side layout */
+    justify-content: space-between; /* Space the images evenly */
+
+}
+
+.screenshot {
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #414833;
 }
 
 .screenshot-container img {
-    max-width: 49%;
-    height: auto;
-    border: 2px solid #ddd;
+    border: 2px solid #DDCBB7; /* Border around the image */
     border-radius: 5px;
 }
 
-.Voyant {
-    width: 100%;
-    max-width: 100%; 
-    height: auto;
-    object-fit: contain; 
+
+.screenshot div {
+    flex: 1 1 48%; /* Makes each image container take up 48% of the width */
 }
 
-
+.screenshot img {
+    width: 100%; /* Ensure images fit inside the container */
+    height: auto;
+    border: 2px solid #DDCBB7;
+    border-radius: 5px;
+    object-fit: contain;
+}
 
 /* Footer */
 .footer {
