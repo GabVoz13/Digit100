@@ -88,9 +88,10 @@ h3 {
 }
 
 .genre-section p {
-    color: #DDCBB7; /* Change this to your desired color */
-    font-size: 1em; /* Adjust the size if needed */
+    color: #DDCBB7; 
+    font-size: 1em; 
 }
+
 
 /* Screenshot Container */
 .screenshot-container {
@@ -100,8 +101,8 @@ h3 {
     background-color: #414833;
     gap: 10px;
     margin-bottom: 20px;
-    display: flex; /* Use flexbox for side-by-side layout */
-    justify-content: space-between; /* Space the images evenly */
+    display: flex; 
+    justify-content: space-between;
 
 }
 
@@ -114,22 +115,48 @@ h3 {
 }
 
 .screenshot-container img {
-    border: 2px solid #DDCBB7; /* Border around the image */
+    border: 2px solid #DDCBB7; 
     border-radius: 5px;
 }
 
 
 .screenshot div {
-    flex: 1 1 48%; /* Makes each image container take up 48% of the width */
+    flex: 1 1 48%;
 }
 
 .screenshot img {
-    width: 100%; /* Ensure images fit inside the container */
+    width: 100%; 
     height: auto;
     border: 2px solid #DDCBB7;
     border-radius: 5px;
     object-fit: contain;
 }
+
+/* Song Credits Section */
+.credits {
+    background-color: #6A422F;
+    padding: 20px;
+    margin-top: 30px;
+    border-left: 4px solid #DDCBB7;
+}
+
+.credits p {
+    color: #DDCBB7;
+    font-size: 1.1em;
+    margin-bottom: 20px;
+}
+
+.credits ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.credits ul li {
+    color: #DDCBB7;
+    font-size: 1em;
+    margin-bottom: 5px;
+}
+
 
 /* Footer */
 .footer {
