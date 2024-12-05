@@ -54,6 +54,30 @@ li a:hover {
     background-color: #7B4B36;
 }
 
+/* Style for the figure element */
+.image-caption {
+    text-align: center; 
+    margin: 20px auto; 
+    max-width: 800px; 
+}
+
+.image-caption img {
+    display: block;
+    margin: 0 auto; 
+    max-width: 100%; 
+    height: auto;
+    border: 3px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.image-caption figcaption {
+    margin-top: 10px; 
+    font-size: 0.9rem;
+    color: #555; 
+    font-style: italic; 
+}
+
 /* Main Content */
 main {
     padding: 20px;
