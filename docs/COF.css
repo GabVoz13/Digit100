@@ -10,7 +10,7 @@ body {
 
 /* Header */
 header {
-    background-color: #f4f4f4;
+    background-color: #333D29;
     padding: 20px 0;
     text-align: center;
     border-bottom: 2px solid #ddd;
@@ -19,7 +19,7 @@ header {
 header h1 {
     margin: 0;
     font-size: 2rem;
-    color: #333;
+    color: #82896E;
 }
 
 /* Nav bar Section */
@@ -59,6 +59,7 @@ main {
     padding: 20px;
     max-width: 800px;
     margin: 20px auto;
+    text-align: center;
 }
 
 main h2 {
@@ -68,9 +69,21 @@ main h2 {
     font-size: 1.5rem;
 }
 
+/* Style for game images */
+.game-image {
+    display: block; 
+    margin: 20px auto;
+    max-width: 100%; 
+    height: auto; 
+    border: 3px solid #ccc;
+    border-radius: 10px; 
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3); 
+}
+
+
 /* Footer */
 footer {
-    background-color: #f4f4f4;
+    background-color: #333D29;
     text-align: center;
     padding: 10px 0;
     border-top: 1px solid #ddd;
