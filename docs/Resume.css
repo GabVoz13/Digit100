@@ -7,8 +7,8 @@ nav ul {list-style-type: none;
     padding: 0;
     overflow: hidden;
     background-color: #8A6240;}
-li {float:left;}
-li a {
+nav ul li {float:left;}
+nav ul li a {
   display: block;
   color: #CABA9C;
   text-align: center;
@@ -16,7 +16,7 @@ li a {
   text-decoration: none;
 }
 
-li a:hover {
+nav ul li a:hover {
   background-color: #7B4B36;}
 
 section.flex {display:flex;}
