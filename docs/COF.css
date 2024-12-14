@@ -272,6 +272,25 @@ a:hover {
     border-radius: 50%;
 }
 
+/* copyright */
+.copyright-section {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 0.9rem;
+    color: #555; 
+    padding: 10px;
+}
+
+.copyright-section a {
+    color: #333D29; 
+    text-decoration: none;
+}
+
+.copyright-section a:hover {
+    text-decoration: underline; 
+}
+
+
 /* Footer */
 footer {
     background-color: #333D29;
