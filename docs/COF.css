@@ -93,6 +93,23 @@ main h2 {
     font-size: 1.5rem;
 }
 
+/* Trailer content */
+.trailer-container {
+    text-align: center;
+    margin: 40px auto;
+}
+
+.trailer-container h2 {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+}
+
+.trailer-container iframe {
+    border-radius: 10px; 
+    max-width: 100%; 
+}
+
+
 /* Style for game images */
 .game-image {
     display: block;
@@ -104,7 +121,7 @@ main h2 {
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
 }
 
-/* Narrative Analysis Container */
+/* Analysis Containers */
 .section-container {
     background-color: #F5F5DC;
     padding: 30px;
@@ -143,6 +160,116 @@ ul li {
 
 ul li strong {
     font-weight: bold;
+}
+
+/* Styling for the Image Row */
+#image-row {
+    text-align: center;
+    margin: 40px auto;
+}
+
+#image-row h2 {
+    margin-bottom: 20px;
+    font-size: 1.8rem;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px; 
+}
+
+.image-container img {
+    width: 30%; 
+    max-width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* System Requirements */
+#system-requirements {
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    max-width: 1000px; 
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+#system-requirements h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.requirements-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px; 
+    flex-wrap: wrap; 
+}
+
+.requirements {
+    flex: 1;
+    min-width: 280px;
+    max-width: 45%; 
+}
+
+.requirements h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.requirements ul {
+    list-style-type: disc; 
+    padding-left: 0; 
+}
+
+.requirements ul li {
+    margin-bottom: 8px;
+}
+
+.requirements ul li strong {
+    font-weight: bold;
+    color: #333;
+}
+
+/* Steam link */
+a {
+    text-decoration: none; 
+    color: #333D29; 
+    font-weight: bold;
+}
+
+a:hover {
+    color: #0056b3; 
+    text-decoration: underline; 
+}
+
+/* Youtube */
+.video-thumbnail {
+    position: relative;
+    display: inline-block;
+}
+
+.video-thumbnail img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.video-thumbnail .play-button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 40px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    border-radius: 50%;
 }
 
 /* Footer */
